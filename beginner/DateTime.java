@@ -4,7 +4,7 @@ import java.util.*;
 public class DateTime {
 
 	public static void main(String[] args) {
-		//Instantiate a Date object
+		//Instantiate a Date object. This is it.
 		Date date =new Date();
 		SimpleDateFormat ft= new SimpleDateFormat("MM.dd.yyyy");
 		String input = args.length==0? "11.15.2018": args[0];
