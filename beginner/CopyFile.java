@@ -7,7 +7,7 @@ public class CopyFile {
 		File file = new File("C:\\Users\\Jiwan\\eclipse-workspace\\Beginers\\input.txt");
 		FileReader in =null;
 		FileWriter out =null;
-		
+		// This is test.
 		try {
 			in =new FileReader("input.txt");
 			out = new FileWriter("output.txt");
